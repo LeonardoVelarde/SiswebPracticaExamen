@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+#button{
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: green;
+    border-color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+ul{
+    margin-top: 0px;
+    margin-left: 65%;
+    position:fixed;
+}
+
+.maparticle{
+    width: 900px;
+    height: 400px;
+}
+
+.smalltext{
+    max-width: 400px;
+}
+
+.round{
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding:5%;
+    margin: 0px;
+}
+
+.blackref{
+    color: black;
+}
+
+.imgbox{
+    width: 200px;
+    height: 300px;
+}
+
+.link {
+    display: inline;
+}
+
+.subtext{
+    max-width: 200px;
+}
+
+tr{
+    height: 30px;
+    background-color: #D8D8D8;
+}
+
+.trowpaint{
+    height: 30px;
+    background-color: #F5ECCE;
+    color: black
+}
+
+p{
+    color: black;
+}
+
+table{
+    background-color: black;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+    border-width: thin;
+    border-spacing: 2px;
+    border-style: none;
+    border-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.tablehead {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.tablecol{
+    width: 150px;
+}
+
+.tablecolmarginright{
+    text-align: right;
+    padding-right: 20px;
+    width: 150px;
+}
+
+.tablecolcenter{
+    width: 150px;
+    text-align: center;
+}
+
+.navbar{
+    top: 0px;
+    text-align: right;
+    margin-right: 10%;
+    float: right;
+}
+
+.navbarfooter {
+    float: right;
+    margin: -38px 150px -30px -30px;
+}
+
+.topborder{
+    margin-left: 80px;
+    border-width: 4px;
+    border-top: 2px red solid;
+    max-width: 300px;
+    width: 100%;
+}
+
+.content {
+    margin-left: 20%;
+}
+
+h1{
+    top: 0px;
+    max-width: 250px;
+}
+
+h3{
+    color: gray;
+}
+
+h2 {
+    margin-left: 5%;
+}
+
+article{
+    background-color: white;
+    padding: 6%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    background-color: black;
+    padding: 5%;
+    bottom: 0px;
+    width: 100%;
+}
