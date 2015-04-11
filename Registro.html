@@ -5,8 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-	<div class="topborder"></div>
+
+	<img class="adimg" src="addme.png">
+
 	<header class="header">
+		<!-- <div class="logobox"> -->
+			<img class="logobox" src="twitter.png">
+		<!-- </div> -->
+		
 		<ul class="navbar">
 			<li class="link"><a href="Clases.html">CLASES</a></li>
 			<li class="link"><a href="Lugar.html">LUGAR</a></li>
@@ -27,24 +33,35 @@
 		</article>
 		
 		<article>
-			<h3>Nombre</h3>
+			<h4>Nombre</h4>
 			<input  class="round" type="text" name="username" placeholder="Full name">
-			<h3>Email</h3>
+			<h4>Email</h4>
 			<input  class="round" type="email" name="email-address" placeholder="name@domain.com">
-			<h3>Ciudad</h3>
+			<h4>Ciudad</h4>
 			<select class="round" name="city">
 				<option value="Cochabamba">Cochabamba</option>
+				<option value="Santa Cruz">Santa Cruz</option>
 				<option value="Beni">Beni</option>
-				<option value="La Paz">La Paz</option>
 				<option value="Oruro">Oruro</option>
 				<option value="Potosi">Potosi</option>
-				<option value="Santa Cruz">Santa Cruz</option>
+				<option value="La Paz">La Paz</option>
 				<option value="Chuquisaca">Chuquisaca</option>
 				<option value="Pando">Pando</option>
 				<option value="Tarija">Tarija</option>
 			</select>
-			<h3>Comentario</h3>
-			<textarea class="round"></textarea>
+			<h4>Comentario</h4>
+			<input type="text" class="round"></input>
+			<br>
+			<br>
+			<input type="radio" name="sex" checked value="Male"> Male
+			<input type="radio" name="sex" value="Female">Female
+			<br>
+			<br>
+			<strong>Color de Polera: </strong> <input type="color">
+			<br>
+			<br>
+			<strong>Fecha de nacimiento: </strong>&nbsp; <input type="date">
+			<br>
 			<br>
 			<input type="submit" name="submit" value="REGISTRARSE" id="button">
 		</article>
@@ -52,7 +69,7 @@
 	</section>
 
 	<footer>
-		<h3>&copy; SISTEMAS WEB</h3>
+		<h4>&copy; SISTEMAS WEB</h4>
 		<ul class="navbarfooter">
 			<li class="link"><a href="Clases.html">CLASES</a></li>
 			<li class="link"><a href="Lugar.html">LUGAR</a></li>

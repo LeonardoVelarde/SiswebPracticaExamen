@@ -38,6 +38,7 @@ ul{
     color: white;
     text-align: left;
     padding:5%;
+    padding-left: 2%;
     margin: 0px;
 }
 
@@ -94,14 +95,32 @@ a {
     width: 100%;
 }
 
+.spacemaker{
+    min-width: 900px;
+}
+
 .tablecol{
     width: 150px;
+}
+
+.logobox{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .tablecolmarginright{
     text-align: right;
     padding-right: 20px;
     width: 150px;
+}
+
+.centered{
+    text-align: center;
 }
 
 .tablecolcenter{
@@ -118,7 +137,7 @@ a {
 
 .navbarfooter {
     float: right;
-    margin: -38px 150px -30px -30px;
+    position: absolute;
 }
 
 .topborder{
@@ -129,17 +148,33 @@ a {
     width: 100%;
 }
 
+#classcontent{
+    margin-left: 5%;
+}
+
 .content {
-    margin-left: 20%;
+    margin-left: 15%;
+}
+
+.contenttable {
+    margin-left: 29%;
+    margin-right: 30%;
+}
+
+.adimg{
+    top: 300px;
+    left: 150px;
+    margin: 10px;
+    padding: 5px;
+    background-color: gray;
+    position: fixed;
 }
 
 h1{
     top: 0px;
+    margin-top: 2%;
+    margin-left: 7%;
     max-width: 250px;
-}
-
-h3{
-    color: gray;
 }
 
 h2 {
