@@ -84,6 +84,10 @@ table{
     border-color: black;
 }
 
+h4{
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: #FFFFFF;
